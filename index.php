@@ -3,6 +3,6 @@
   <title>Prueba de PHP HEROKU</title>
  </head>
  <body>
- <?php echo '<p>Hola Leo!</p>'; ?>
+ <?php echo '¡Hola ' . htmlspecialchars($_GET["nombre"]) . '!'; ?>
  </body>
 </html>
